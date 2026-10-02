@@ -1,0 +1,14 @@
+{
+  "name": "repaircenter-ui-tests",
+  "version": "1.5.1",
+  "private": true,
+  "description": "Testumgebung fuer die Oberflaeche von RepairCenter. Wird nur zum Testen gebraucht - die Anwendung selbst laeuft ohne Node.js.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/ui/"
+  },
+  "devDependencies": {
+    "jsdom": "^24.1.0"
+  },
+  "license": "MIT"
+}
